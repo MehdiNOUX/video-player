@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>video player</title>
+    <link rel="stylesheet" href="./asset/Css/main.css">
+</head>
+
+<body>
+    <div class="videoplayer">
+        <video id="thevideo" src="https://www.sample-videos.com/video321/mp4/720/big_buck_bunny_720p_1mb.mp4"></video>
+
+        <div class="cointrol">
+            <button id="playbtn">PLAY</button>
+
+            <div class="progress-countiner">
+                <div id="progressbar" class="progress-bar"></div>
+            </div>
+
+            <div class="volume-contorol">
+                <input type="range" id="volomeslider" min="0" max="1" step="0.1" value="1">
+                <button id="mutebtn">SOUND</button>
+            </div>
+
+            <button id="fullscreen">FULL SCREEN</button>
+
+        </div>
+    </div>
+
+    <script src="./asset/Js/main.js"></script>
+</body>
+
+</html>
